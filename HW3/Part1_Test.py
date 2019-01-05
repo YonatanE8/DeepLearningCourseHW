@@ -8,7 +8,7 @@ import re
 import numpy as np
 import torch
 import matplotlib.pyplot as plt
-import hw3.charnn as charnn
+from .hw3 import charnn
 import torch.utils.data
 
 
@@ -94,6 +94,7 @@ x0, y0 = next(iter(dl_corpus))
 print(f'shape of a batch sample: {x0.shape}')
 print(f'shape of a batch label: {y0.shape}')
 
+#
 
 
 
